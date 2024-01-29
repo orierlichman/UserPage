@@ -9,7 +9,7 @@
             Placeholder="Type username"
             VerticalOptions="Center"
             HorizontalOptions="Center"
-            Text="{Binding Username}"
+            Text="{Binding UserName}"
             />
         
         <Label 
@@ -24,10 +24,7 @@
             Text="{Binding Password}"
             />
 
-        <Label 
-            Text="{Binding Password}"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        
 
         <Button
             Text="Login"
@@ -42,7 +39,7 @@
             HorizontalOptions="Center" />
 
         <Label
-            Text="{Binding Message}"
+            Text="{Binding Messege}"
             TextColor="{Binding Color}"
             VerticalOptions="Center"
             HorizontalOptions="Center" />

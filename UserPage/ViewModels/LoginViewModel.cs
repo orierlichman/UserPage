@@ -79,12 +79,12 @@ namespace UserPage.ViewModels
             };
             if(service.LogInCheack(u) == true )
             {
-                messege = "Login succeeded!";
+                Messege = "Login succeeded!";
                 Color = Colors.Green;
             }
             else
             {
-                messege = "Login Failed!";
+                Messege = "Login Failed!";
                 Color = Colors.Red;
             }
         }
@@ -96,6 +96,6 @@ namespace UserPage.ViewModels
             Messege = "";
             Color = Colors.Black;
         }
-
+        //Check
     }
 }
